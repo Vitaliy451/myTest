@@ -1,0 +1,25 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : null,
+    "data" : "dmFyIGEgPSAndGV4dCc7",
+    "descriptor" : null,
+    "etag" : "dc118f263e02d2df7b14a9993cb50426c70127ea4a482e153c12b7de8e685e0f",
+    "externalId" : null,
+    "fileName" : "Vitaliy module.js",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "99f2b390-1ac3-11f0-a725-3b7747e12908"
+    },
+    "link" : "/api/resource/js_module/tenant/Vitaliy module.js",
+    "name" : "Vitaliy module",
+    "preview" : null,
+    "public" : false,
+    "publicLink" : null,
+    "publicResourceKey" : null,
+    "resourceKey" : "Vitaliy module.js",
+    "resourceSubType" : "MODULE",
+    "resourceType" : "JS_MODULE",
+    "title" : "Vitaliy module"
+  }
+}

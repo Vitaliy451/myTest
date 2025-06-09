@@ -1,0 +1,32 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "title" : "gg",
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "name" : "gg",
+    "resources" : null,
+    "assignedCustomers" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ba112810-2cd8-11f0-94fc-2ddb3374d38c"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "3c357c40-2ce0-11f0-94fc-2ddb3374d38c"
+    },
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "ba112810-2cd8-11f0-94fc-2ddb3374d38c"
+    }
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "port" : 11560,
+        "soBroadcast" : true,
+        "soRcvBuf" : 64,
+        "cacheSize" : 1000,
+        "timeToLiveInMinutes" : 1440,
+        "handlerConfiguration" : {
+          "handlerType" : "JSON",
+          "charsetName" : "UTF-8",
+          "maxFrameLength" : 128
+        }
+      },
+      "metadata" : { }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1742813749874,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "ae0afbd0-066e-11f0-822b-7f286c9d1c1f"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "ff702270-0673-11f0-a538-2b135f93f192"
+    },
+    "edgeTemplate" : false,
+    "enabled" : false,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "ae3f0420-066e-11f0-822b-7f286c9d1c1f"
+    },
+    "name" : "UDP integration",
+    "remote" : true,
+    "routingKey" : "50f5b5a4-4bcf-5fe8-0982-3152239752ba",
+    "secret" : "p0aiqel8dklyqqcm1ut2",
+    "type" : "UDP"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "INTEGRATION",
+      "id" : "ae3f0420-066e-11f0-822b-7f286c9d1c1f"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "a1823b80-0b19-11f0-b485-0920572cd458"
+    },
+    "type" : "ManagedByIntegration",
+    "typeGroup" : "COMMON",
+    "version" : 280202
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

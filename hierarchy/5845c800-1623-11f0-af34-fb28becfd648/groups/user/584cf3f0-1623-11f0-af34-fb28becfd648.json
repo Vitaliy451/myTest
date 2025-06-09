@@ -1,0 +1,71 @@
+{
+  "entityType" : "ENTITY_GROUP",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "columns" : [ {
+        "type" : "ENTITY_FIELD",
+        "key" : "created_time",
+        "sortOrder" : "DESC"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "first_name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "last_name",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "email",
+        "sortOrder" : "NONE"
+      } ],
+      "settings" : { },
+      "actions" : { }
+    },
+    "edgeGroupAll" : false,
+    "externalId" : null,
+    "groupAll" : true,
+    "id" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "584cf3f0-1623-11f0-af34-fb28becfd648"
+    },
+    "name" : "All",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "5845c800-1623-11f0-af34-fb28becfd648"
+    },
+    "type" : "USER"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  },
+  "groupEntities" : true,
+  "permissions" : [ {
+    "entityGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "90efc9c0-161a-11f0-86a0-b386c6af793f"
+    },
+    "entityGroupType" : "DEVICE",
+    "roleId" : {
+      "entityType" : "ROLE",
+      "id" : "4b8694f0-1619-11f0-86a0-b386c6af793f"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "14095ef0-fdae-11ef-bca0-9d823f5ae12e"
+    },
+    "userGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "584cf3f0-1623-11f0-af34-fb28becfd648"
+    },
+    "createdTime" : 1744302567663,
+    "id" : {
+      "entityType" : "GROUP_PERMISSION",
+      "id" : "f8c4b7f0-1628-11f0-af34-fb28becfd648"
+    },
+    "name" : "GROUP_[584cf3f0-1623-11f0-af34-fb28becfd648]_[4b8694f0-1619-11f0-86a0-b386c6af793f]_[90efc9c0-161a-11f0-86a0-b386c6af793f]_[DEVICE]",
+    "public" : false
+  } ]
+}

@@ -1,0 +1,25 @@
+{
+  "entityType" : "TB_RESOURCE",
+  "entity" : {
+    "customerId" : null,
+    "data" : "ZXhwb3J0IGNvbnN0IHRleHQgPSAnc3lzIGFkbWluIGV4dGVuc2lvbic7Cg==",
+    "descriptor" : null,
+    "etag" : "cf23a9712d9e48ebb49395b59018f196bde1d7be46a33f74a5ac87135cd7d2a6",
+    "externalId" : null,
+    "fileName" : "sys admin extension.js",
+    "id" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "904df960-15f7-11f0-bbcb-9172d691de23"
+    },
+    "link" : "/api/resource/js_module/tenant/sys admin extension.js",
+    "name" : "Tenant Extension",
+    "preview" : null,
+    "public" : false,
+    "publicLink" : null,
+    "publicResourceKey" : null,
+    "resourceKey" : "sys admin extension.js",
+    "resourceSubType" : "EXTENSION",
+    "resourceType" : "JS_MODULE",
+    "title" : "Tenant Extension"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "clientConfiguration" : {
+        "port" : 10560,
+        "soBacklogOption" : 128,
+        "soRcvBuf" : 64,
+        "soSndBuf" : 64,
+        "soKeepaliveOption" : true,
+        "tcpNoDelay" : true,
+        "cacheSize" : 1000,
+        "timeToLiveInMinutes" : 1440,
+        "handlerConfiguration" : {
+          "handlerType" : "JSON",
+          "byteOrder" : "LITTLE_ENDIAN",
+          "maxFrameLength" : 128,
+          "lengthFieldOffset" : 0,
+          "lengthFieldLength" : 2,
+          "lengthAdjustment" : 0,
+          "initialBytesToStrip" : 0,
+          "failFast" : false,
+          "stripDelimiter" : true,
+          "messageSeparator" : "SYSTEM_LINE_SEPARATOR",
+          "customSeparatorRawValue" : null
+        }
+      },
+      "metadata" : { }
+    },
+    "debugMode" : false,
+    "debugSettings" : {
+      "allEnabled" : false,
+      "allEnabledUntil" : 1743171448140,
+      "failuresEnabled" : true
+    },
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "4cb45a80-064a-11f0-a3b6-2d87f3c32b94"
+    },
+    "downlinkConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "40682d60-0668-11f0-9932-d5e7e7dd1855"
+    },
+    "edgeTemplate" : false,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "4ce3f600-064a-11f0-a3b6-2d87f3c32b94"
+    },
+    "name" : "TCP integration",
+    "remote" : true,
+    "routingKey" : "620a8047-6d70-b898-cc09-19a3ca76e794",
+    "secret" : "v7mftia7v3pzy7enc6vf",
+    "type" : "TCP"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
